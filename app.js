@@ -28,7 +28,7 @@ app.get('/getTodos',(req,res)=>{
         if(err)
             console.log(err);
         else{
-            res.json(documents);
+            res.json(documentss);
         }
     });
 });
